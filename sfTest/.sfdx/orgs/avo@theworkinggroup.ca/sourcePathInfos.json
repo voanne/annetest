@@ -1,0 +1,167 @@
+[
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1521738694694,
+            "changeTime": 1521738694694,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1521747908208,
+            "changeTime": 1521747908208,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1521817276557,
+            "changeTime": 1521817276557,
+            "contentHash": "c885a5b3d3de4c548e4a66e38eaae8ffd68ff755",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestClass.cls",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestClass.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 80,
+            "modifiedTime": 1521738805882,
+            "changeTime": 1521738805882,
+            "contentHash": "edbe6c5314d30170c21dcd9b69faee35ad980aac",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestClass.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestClass.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 191,
+            "modifiedTime": 1521738805883,
+            "changeTime": 1521738805883,
+            "contentHash": "fd3cf3c1b82e5bc9eadfb3030edfc4ed62eb106e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 88,
+            "modifiedTime": 1521747904331,
+            "changeTime": 1521747904332,
+            "contentHash": "ed1c901c69070afcd457849e0b6d97c618fce38c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 195,
+            "modifiedTime": 1521747908208,
+            "changeTime": 1521747908208,
+            "contentHash": "6d37381062971ac41268d8b0c1c2ff322e78e404",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1521738694694,
+            "changeTime": 1521738694694,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/testTrigger.trigger",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/testTrigger.trigger",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 51,
+            "modifiedTime": 1521817276556,
+            "changeTime": 1521817276556,
+            "contentHash": "d9c2defdd5ace3d74b3d98b746b788493f84b1e3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/testTrigger.trigger-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/testTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 191,
+            "modifiedTime": 1521817276557,
+            "changeTime": 1521817276557,
+            "contentHash": "94b28711d2b1f33e4cf43273622a41c796cf0b15",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/avo/Documents/GitHub/annetest/sfTest",
+        {
+            "state": "n",
+            "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1521738699088,
+            "changeTime": 1521738699088,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
