@@ -29,7 +29,7 @@ global class Product2Feed {
     global String LinkUrl;
     global Product2 Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

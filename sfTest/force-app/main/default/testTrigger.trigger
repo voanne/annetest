@@ -1,3 +1,3 @@
-trigger testTrigger on SOBJECT (before insert) {
-
+trigger testTrigger on Account (before insert) {
+    System.debug('********** inserting account');
 }

@@ -29,7 +29,7 @@ global class CaseFeed {
     global String LinkUrl;
     global Case Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

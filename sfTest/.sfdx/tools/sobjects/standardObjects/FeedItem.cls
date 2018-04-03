@@ -17,7 +17,8 @@ global class FeedItem {
     global List<FeedAttachment> FeedAttachments;
     global List<FeedComment> FeedComments;
     global List<FeedLike> FeedEntity;
-    global List<FeedPollVote> FeedItem;
+    global List<Announcement> FeedItem;
+    global List<WorkThanks> FeedItemThanks;
     global List<FeedLike> FeedLikes;
     global List<FeedRevision> FeedRevisions;
     global List<FeedSignal> FeedSignals;
@@ -40,7 +41,7 @@ global class FeedItem {
     global SObject Parent;
     global Id ParentId;
     global List<FeedAttachment> Record;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Integer Revision;
     global String Status;

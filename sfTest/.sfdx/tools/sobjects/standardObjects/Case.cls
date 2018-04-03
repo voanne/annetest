@@ -53,16 +53,19 @@ global class Case {
     global String Origin;
     global SObject Owner;
     global Id OwnerId;
-    global List<FeedItem> Parent;
+    global Case Parent;
     global Id ParentId;
     global String PotentialLiability__c;
     global String Priority;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
+    global List<ProductRequestLineItem> ProductRequestLineItems;
+    global List<ProductRequest> ProductRequests;
     global String Product__c;
     global String Reason;
     global List<CollaborationGroupRecord> RecordAssociatedGroups;
     global List<ContentDistribution> RelatedRecord;
+    global List<ReturnOrder> ReturnOrders;
     global String SLAViolation__c;
     global List<CaseShare> Shares;
     global String Status;
@@ -77,6 +80,7 @@ global class Case {
     global List<CaseTeamTemplateRecord> TeamTemplateRecords;
     global List<TopicAssignment> TopicAssignments;
     global String Type;
+    global List<WorkOrder> WorkOrders;
 
     global Case () 
     {

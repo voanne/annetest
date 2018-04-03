@@ -34,6 +34,7 @@ global class BusinessHours {
     global Time TuesdayStartTime;
     global Time WednesdayEndTime;
     global Time WednesdayStartTime;
+    global List<WorkOrder> WorkOrders;
 
     global BusinessHours () 
     {

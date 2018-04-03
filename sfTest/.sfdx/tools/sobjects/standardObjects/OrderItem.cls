@@ -39,6 +39,7 @@ global class OrderItem {
     global Id Product2Id;
     global Double Quantity;
     global List<FlowRecordRelation> RelatedRecord;
+    global List<ReturnOrderLineItem> ReturnOrderLineItems;
     global Date ServiceDate;
     global Datetime SystemModstamp;
     global Decimal TotalPrice;

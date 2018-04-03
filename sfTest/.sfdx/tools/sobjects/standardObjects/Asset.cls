@@ -44,6 +44,9 @@ global class Asset {
     global Datetime LastModifiedDate;
     global Datetime LastReferencedDate;
     global Datetime LastViewedDate;
+    global Location Location;
+    global Id LocationId;
+    global List<MaintenanceAsset> MaintenanceAssets;
     global String Name;
     global List<Note> Notes;
     global List<NoteAndAttachment> NotesAndAttachments;
@@ -64,9 +67,11 @@ global class Asset {
     global List<AssetRelationship> RelatedAssets;
     global List<FlowRecordRelation> RelatedRecord;
     global List<OutgoingEmail> RelatedTo;
-    global Asset RootAsset;
+    global List<ReturnOrderLineItem> ReturnOrderLineItems;
+    global List<Asset> RootAsset;
     global Id RootAssetId;
     global String SerialNumber;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<AssetShare> Shares;
     global String Status;
     global String StockKeepingUnit;
@@ -74,6 +79,8 @@ global class Asset {
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
     global Date UsageEndDate;
+    global List<WorkOrderLineItem> WorkOrderLineItems;
+    global List<WorkOrder> WorkOrders;
 
     global Asset () 
     {

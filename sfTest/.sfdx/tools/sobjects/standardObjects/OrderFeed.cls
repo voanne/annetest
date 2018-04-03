@@ -29,7 +29,7 @@ global class OrderFeed {
     global String LinkUrl;
     global Order Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

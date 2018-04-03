@@ -79,9 +79,10 @@ global class Contact {
     global String MailingPostalCode;
     global String MailingState;
     global String MailingStreet;
+    global List<MaintenancePlan> MaintenancePlans;
     global Contact MasterRecord;
     global Id MasterRecordId;
-    global List<CaseTeamTemplateMember> Member;
+    global List<CaseTeamMember> Member;
     global String MobilePhone;
     global String Name;
     global List<Note> Notes;
@@ -110,7 +111,9 @@ global class Contact {
     global List<FlowRecordRelation> RelatedRecord;
     global Contact ReportsTo;
     global Id ReportsToId;
+    global List<ReturnOrder> ReturnOrders;
     global String Salutation;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<ContactShare> Shares;
     global List<Order> ShipToContact;
     global Datetime SystemModstamp;
@@ -119,6 +122,7 @@ global class Contact {
     global List<TopicAssignment> TopicAssignments;
     global List<UndecidedEventRelation> UndecidedEventRelations;
     global List<OutgoingEmail> Who;
+    global List<WorkOrder> WorkOrders;
 
     global Contact () 
     {

@@ -44,6 +44,7 @@ global class PermissionSet {
     global Boolean PermissionsBulkMacrosAllowed;
     global Boolean PermissionsCampaignInfluence2;
     global Boolean PermissionsCanApproveFeedPost;
+    global Boolean PermissionsCanEditDataPrepRecipe;
     global Boolean PermissionsCanInsertFeedSystemFields;
     global Boolean PermissionsCanUseNewDashboardBuilder;
     global Boolean PermissionsCanVerifyComment;
@@ -65,10 +66,10 @@ global class PermissionSet {
     global Boolean PermissionsCreateCustomizeFilters;
     global Boolean PermissionsCreateCustomizeReports;
     global Boolean PermissionsCreateDashboardFolders;
-    global Boolean PermissionsCreatePackaging;
     global Boolean PermissionsCreateReportFolders;
     global Boolean PermissionsCreateReportInLightning;
     global Boolean PermissionsCreateTopics;
+    global Boolean PermissionsCreateWorkBadgeDefinition;
     global Boolean PermissionsCreateWorkspaces;
     global Boolean PermissionsCustomMobileAppsAccess;
     global Boolean PermissionsCustomSidebarOnAllPages;
@@ -101,6 +102,10 @@ global class PermissionSet {
     global Boolean PermissionsEnableNotifications;
     global Boolean PermissionsExportReport;
     global Boolean PermissionsFeedPinning;
+    global Boolean PermissionsFieldServiceAccess;
+    global Boolean PermissionsFieldServiceDispatcher;
+    global Boolean PermissionsFieldServiceMobileApp;
+    global Boolean PermissionsFieldServiceScheduling;
     global Boolean PermissionsFlowUFLRequired;
     global Boolean PermissionsForceTwoFactor;
     global Boolean PermissionsGovernNetworks;
@@ -110,6 +115,12 @@ global class PermissionSet {
     global Boolean PermissionsImportCustomObjects;
     global Boolean PermissionsImportLeads;
     global Boolean PermissionsImportPersonal;
+    global Boolean PermissionsInsightsAppAdmin;
+    global Boolean PermissionsInsightsAppDashboardEditor;
+    global Boolean PermissionsInsightsAppEltEditor;
+    global Boolean PermissionsInsightsAppUploadUser;
+    global Boolean PermissionsInsightsAppUser;
+    global Boolean PermissionsInsightsCreateApplication;
     global Boolean PermissionsInstallPackaging;
     global Boolean PermissionsIotUser;
     global Boolean PermissionsLightningConsoleAllowedForUser;
@@ -157,6 +168,7 @@ global class PermissionSet {
     global Boolean PermissionsManageSolutions;
     global Boolean PermissionsManageSurveys;
     global Boolean PermissionsManageSynonyms;
+    global Boolean PermissionsManageTemplatedApp;
     global Boolean PermissionsManageTwoFactor;
     global Boolean PermissionsManageUnlistedGroups;
     global Boolean PermissionsManageUsers;
@@ -167,10 +179,10 @@ global class PermissionSet {
     global Boolean PermissionsModifyAllData;
     global Boolean PermissionsModifySecureAgents;
     global Boolean PermissionsNewReportBuilder;
+    global Boolean PermissionsOptOutGeoLocationTracking;
     global Boolean PermissionsPackaging2;
     global Boolean PermissionsPasswordNeverExpires;
     global Boolean PermissionsPreventClassicExperience;
-    global Boolean PermissionsPublishPackaging;
     global Boolean PermissionsRemoveDirectMessageMembers;
     global Boolean PermissionsResetPasswords;
     global Boolean PermissionsRunFlow;
@@ -179,6 +191,7 @@ global class PermissionSet {
     global Boolean PermissionsScheduleReports;
     global Boolean PermissionsSelectFilesFromSalesforce;
     global Boolean PermissionsSendAnnouncementEmails;
+    global Boolean PermissionsSendExternalEmailAvailable;
     global Boolean PermissionsSendSitRequests;
     global Boolean PermissionsShareInternalArticles;
     global Boolean PermissionsShowCompanyNameAsUserBadge;
@@ -193,6 +206,7 @@ global class PermissionSet {
     global Boolean PermissionsTransferAnyLead;
     global Boolean PermissionsTwoFactorApi;
     global Boolean PermissionsUseTeamReassignWizards;
+    global Boolean PermissionsUseTemplatedApp;
     global Boolean PermissionsUseWebLink;
     global Boolean PermissionsViewAllActivities;
     global Boolean PermissionsViewAllData;
@@ -205,10 +219,12 @@ global class PermissionSet {
     global Boolean PermissionsViewHealthCheck;
     global Boolean PermissionsViewHelpLink;
     global Boolean PermissionsViewMyTeamsDashboards;
+    global Boolean PermissionsViewOnlyEmbeddedAppUser;
     global Boolean PermissionsViewPublicDashboards;
     global Boolean PermissionsViewPublicReports;
     global Boolean PermissionsViewRoles;
     global Boolean PermissionsViewSetup;
+    global Boolean PermissionsWaveTabularDownload;
     global Boolean PermissionsWorkCalibrationUser;
     global Boolean PermissionsWorkDotComUserPerm;
     global Profile Profile;

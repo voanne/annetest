@@ -12,14 +12,15 @@ global class User {
     global Account Account;
     global List<AccountCleanInfo> AccountCleanInfoReviewers;
     global Id AccountId;
-    global List<Order> ActivatedBy;
-    global List<ProcessInstanceHistory> Actor;
+    global List<Contract> ActivatedBy;
+    global List<ProcessInstanceStep> Actor;
     global Address Address;
     global String Alias;
     global List<ContentDocument> ArchivedBy;
     global List<AttachedContentDocument> AttachedContentDocuments;
     global List<Document> Author;
     global String BadgeText;
+    global List<WorkBadge> Badges;
     global String BannerPhotoUrl;
     global List<FieldDefinition> BusinessOwner;
     global CallCenter CallCenter;
@@ -36,7 +37,7 @@ global class User {
     global List<ContentVersion> ContentModifiedBy;
     global List<Contract> ContractsSigned;
     global String Country;
-    global List<SearchPromotionRule> CreatedBy;
+    global List<ProcessInstanceNode> CreatedBy;
     global Id CreatedById;
     global Datetime CreatedDate;
     global List<EntityDefinition> DataSteward;
@@ -45,6 +46,7 @@ global class User {
     global SObject DelegatedApprover;
     global Id DelegatedApproverId;
     global List<User> DelegatedUsers;
+    global List<Shipment> DeliveredToShipments;
     global String Department;
     global String DigestFrequency;
     global String Division;
@@ -72,11 +74,13 @@ global class User {
     global List<UserRole> ForecastUser;
     global String FullPhotoUrl;
     global String GeocodeAccuracy;
+    global List<WorkThanks> GivenThanks;
+    global List<WorkBadge> Giver;
     global List<CollaborationGroupMemberRequest> GroupMembershipRequests;
     global List<CollaborationGroupMember> GroupMemberships;
     global List<Site> GuestUser;
     global Id Id;
-    global List<CollaborationGroupFeed> InsertedBy;
+    global List<SiteFeed> InsertedBy;
     global List<InstalledMobileApp> InstalledMobileApps;
     global List<CollaborationInvitation> Inviter;
     global List<PlatformAction> InvokedByUser;
@@ -86,9 +90,9 @@ global class User {
     global Integer JigsawImportLimitOverride;
     global String LanguageLocaleKey;
     global List<ProcessInstanceNode> LastActor;
-    global List<FeedItem> LastEditBy;
+    global List<FeedComment> LastEditBy;
     global Datetime LastLoginDate;
-    global List<CaseStatus> LastModifiedBy;
+    global List<OpportunityShare> LastModifiedBy;
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
     global String LastName;
@@ -106,7 +110,7 @@ global class User {
     global Id ManagerId;
     global String MediumBannerPhotoUrl;
     global String MediumPhotoUrl;
-    global List<ContentWorkspaceMember> Member;
+    global List<CaseTeamTemplateMember> Member;
     global String MobilePhone;
     global String Name;
     global Datetime OfflinePdaTrialExpirationDate;
@@ -115,7 +119,7 @@ global class User {
     global String OutOfOfficeMessage;
     global List<OutgoingEmailRelation> OutgoingEmailRelations;
     global List<OwnedContentDocument> OwnedContentDocuments;
-    global List<TodayGoal> Owner;
+    global List<UserProvisioningRequest> Owner;
     global List<ChatterActivity> Parent;
     global List<PermissionSetAssignment> PermissionSetAssignments;
     global List<PermissionSetLicenseAssign> PermissionSetLicenseAssignments;
@@ -125,14 +129,17 @@ global class User {
     global Profile Profile;
     global Id ProfileId;
     global List<SecureAgent> ProxyUser;
+    global List<ProductTransfer> ReceivedByProductTransfers;
     global Boolean ReceivesAdminInfoEmails;
     global Boolean ReceivesInfoEmails;
     global List<Group> Related;
+    global List<ReturnOrder> ReturnedBy;
     global List<EmailServicesAddress> RunAsUser;
     global List<Dashboard> RunningUser;
-    global List<UserProvAccountStaging> SalesforceUser;
+    global List<UserProvAccount> SalesforceUser;
     global String SenderEmail;
     global String SenderName;
+    global List<ServiceResource> ServiceResources;
     global List<SessionPermSetActivation> SessionPermSetActivations;
     global List<CollaborationInvitation> SharedEntity;
     global List<UserShare> Shares;
@@ -152,10 +159,10 @@ global class User {
     global String TimeZoneSidKey;
     global String Title;
     global List<UndecidedEventRelation> UndecidedEventRelations;
-    global List<DatacloudPurchaseUsage> User;
+    global List<UserListView> User;
     global List<UserEntityAccess> UserEntityAccessRights;
     global List<UserFieldAccess> UserFieldAccessRights;
-    global List<MacroShare> UserOrGroup;
+    global List<GroupMember> UserOrGroup;
     global Boolean UserPermissionsCallCenterAutoLogin;
     global Boolean UserPermissionsInteractionUser;
     global Boolean UserPermissionsJigsawProspectingUser;
@@ -249,7 +256,7 @@ global class User {
     global List<Site> UserSites;
     global String UserType;
     global String Username;
-    global List<ContentNotification> Users;
+    global List<AuthSession> Users;
 
     global User () 
     {

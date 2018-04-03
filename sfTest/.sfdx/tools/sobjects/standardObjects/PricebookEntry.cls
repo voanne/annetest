@@ -24,10 +24,12 @@ global class PricebookEntry {
     global Product2 Product2;
     global Id Product2Id;
     global String ProductCode;
+    global List<ProductConsumed> ProductsConsumed;
     global List<FlowRecordRelation> RelatedRecord;
     global Datetime SystemModstamp;
     global Decimal UnitPrice;
     global Boolean UseStandardPrice;
+    global List<WorkOrderLineItem> WorkOrderLineItems;
 
     global PricebookEntry () 
     {

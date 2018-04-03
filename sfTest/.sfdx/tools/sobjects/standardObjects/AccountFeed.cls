@@ -29,7 +29,7 @@ global class AccountFeed {
     global String LinkUrl;
     global Account Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

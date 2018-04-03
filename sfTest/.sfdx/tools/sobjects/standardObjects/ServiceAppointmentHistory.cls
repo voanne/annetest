@@ -6,20 +6,19 @@
 // To edit your sObjects and their fields, edit the corresponding
 //     .object-meta.xml and .field-meta.xml files.
 
-global class OrgDeleteRequestShare {
-    global String AccessLevel;
+global class ServiceAppointmentHistory {
+    global User CreatedBy;
+    global Id CreatedById;
+    global Datetime CreatedDate;
+    global String Field;
     global Id Id;
     global Boolean IsDeleted;
-    global User LastModifiedBy;
-    global Id LastModifiedById;
-    global Datetime LastModifiedDate;
-    global OrgDeleteRequest Parent;
-    global Id ParentId;
-    global String RowCause;
-    global SObject UserOrGroup;
-    global Id UserOrGroupId;
+    global Object NewValue;
+    global Object OldValue;
+    global ServiceAppointment ServiceAppointment;
+    global Id ServiceAppointmentId;
 
-    global OrgDeleteRequestShare () 
+    global ServiceAppointmentHistory () 
     {
     }
 }

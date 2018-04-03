@@ -19,6 +19,7 @@ global class ContentVersion {
     global Integer ContentSize;
     global String ContentUrl;
     global List<ContentDistribution> ContentVersion;
+    global List<ServiceReport> ContentVersionDocument;
     global User CreatedBy;
     global Id CreatedById;
     global Datetime CreatedDate;
@@ -54,7 +55,7 @@ global class ContentVersion {
     global Integer RatingCount;
     global String ReasonForChange;
     global List<FeedAttachment> Record;
-    global List<ReportFeed> RelatedRecord;
+    global List<MaintenanceAssetFeed> RelatedRecord;
     global String SharingOption;
     global String SharingPrivacy;
     global Datetime SystemModstamp;

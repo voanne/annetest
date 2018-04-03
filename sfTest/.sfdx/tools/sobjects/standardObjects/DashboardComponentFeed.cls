@@ -29,7 +29,7 @@ global class DashboardComponentFeed {
     global String LinkUrl;
     global DashboardComponent Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

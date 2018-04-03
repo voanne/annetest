@@ -29,7 +29,7 @@ global class FeedComment {
     global Datetime LastEditDate;
     global SObject Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Integer Revision;
     global String Status;

@@ -37,8 +37,8 @@
             "isDirectory": true,
             "isMetadataFile": false,
             "size": 288,
-            "modifiedTime": 1521817276557,
-            "changeTime": 1521817276557,
+            "modifiedTime": 1522256058893,
+            "changeTime": 1522256058893,
             "contentHash": "c885a5b3d3de4c548e4a66e38eaae8ffd68ff755",
             "isWorkspace": false,
             "isArtifactRoot": false
@@ -51,10 +51,10 @@
             "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestClass.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 80,
-            "modifiedTime": 1521738805882,
-            "changeTime": 1521738805882,
-            "contentHash": "edbe6c5314d30170c21dcd9b69faee35ad980aac",
+            "size": 1116,
+            "modifiedTime": 1522349643660,
+            "changeTime": 1522349643660,
+            "contentHash": "86d750156dd7bb8e15db22999053de0d0e91bd5c",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -81,10 +81,10 @@
             "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 88,
-            "modifiedTime": 1521747904331,
-            "changeTime": 1521747904332,
-            "contentHash": "ed1c901c69070afcd457849e0b6d97c618fce38c",
+            "size": 270,
+            "modifiedTime": 1522266359000,
+            "changeTime": 1522266359951,
+            "contentHash": "b74730efa4d068d86e3b6dbdef45706cf4c66709",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -96,10 +96,10 @@
             "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/ApexRestTestClass.cls-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 195,
-            "modifiedTime": 1521747908208,
-            "changeTime": 1521747908208,
-            "contentHash": "6d37381062971ac41268d8b0c1c2ff322e78e404",
+            "size": 174,
+            "modifiedTime": 1522247736583,
+            "changeTime": 1522247736583,
+            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -126,10 +126,10 @@
             "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest/force-app/main/default/testTrigger.trigger",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 51,
-            "modifiedTime": 1521817276556,
-            "changeTime": 1521817276556,
-            "contentHash": "d9c2defdd5ace3d74b3d98b746b788493f84b1e3",
+            "size": 101,
+            "modifiedTime": 1522255013402,
+            "changeTime": 1522255013402,
+            "contentHash": "dbc616493c2a57c8ac01d8051be2297fecf1927a",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -156,10 +156,10 @@
             "sourcePath": "/Users/avo/Documents/GitHub/annetest/sfTest",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 288,
-            "modifiedTime": 1521738699088,
-            "changeTime": 1521738699088,
-            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "size": 352,
+            "modifiedTime": 1522350739356,
+            "changeTime": 1522350739356,
+            "contentHash": "ce6c3a25b9ecbcd70004b9967930003891cd3d7d",
             "isWorkspace": true,
             "isArtifactRoot": false
         }

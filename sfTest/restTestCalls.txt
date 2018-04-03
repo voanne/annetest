@@ -1,0 +1,9 @@
+//curl https://power-customization-6819-dev-ed.cs40.my.salesforce.com/services/data/
+
+//curl https://power-customization-6819-dev-ed.cs40.my.salesforce.com/services/apexrest/Account/0015400000D5PxqAAF -H "Authorization: Bearer 00D540000009C7c!AQcAQAkjgM36haqvLySGJAXYN_0O9Q_kDLpNeNhZqwYL0Y3VK1jUfya.6L_IPYWGqYtyxYMcDXIy89A4JRgvDwuEHdb6pZVr"
+
+
+//curl https://power-customization-6819-dev-ed.cs40.my.salesforce.com/services/data/v42.0/sobjects/Account/ -H "Authorization: Bearer 00D540000009C7c!AQcAQAkjgM36haqvLySGJAXYN_0O9Q_kDLpNeNhZqwYL0Y3VK1jUfya.6L_IPYWGqYtyxYMcDXIy89A4JRgvDwuEHdb6pZVr" -H "X-PrettyPrint:1"
+
+curl https://power-customization-6819-dev-ed.cs40.my.salesforce.com/services/apexrest/Account/ -H "Authorization: Bearer 00D540000009C7c!AQcAQAkjgM36haqvLySGJAXYN_0O9Q_kDLpNeNhZqwYL0Y3VK1jUfya.6L_IPYWGqYtyxYMcDXIy89A4JRgvDwuEHdb6pZVr" -H "Content-Type: application/json" -d @account.txt
+//--data "{'name":"someNewAcc"}"

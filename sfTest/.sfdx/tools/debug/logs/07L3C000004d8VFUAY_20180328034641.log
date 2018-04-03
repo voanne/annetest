@@ -1,0 +1,61 @@
+42.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+15:46:41.1 (1337430)|USER_INFO|[EXTERNAL]|0053C000000qwI8|test-ljjlukbmiu2s@example.com|Eastern Standard Time|GMT-04:00
+15:46:41.1 (1391810)|EXECUTION_STARTED
+15:46:41.1 (1397294)|CODE_UNIT_STARTED|[EXTERNAL]|01p3C000000bBmd|ApexRestTestClass.ApexRestTestClass
+15:46:41.1 (8680491)|USER_DEBUG|[6]|DEBUG|********test1:SESSION_ID_REMOVED
+15:46:41.1 (8742940)|DML_BEGIN|[7]|Op:Insert|Type:Account|Rows:1
+15:46:41.1 (22492291)|CODE_UNIT_STARTED|[EXTERNAL]|01q3C000000HPjN|testTrigger on Account trigger event BeforeInsert
+15:46:41.1 (22742344)|USER_DEBUG|[2]|DEBUG|********** inserting account
+15:46:41.22 (22756361)|CUMULATIVE_LIMIT_USAGE
+15:46:41.22 (22756361)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+15:46:41.22 (22756361)|CUMULATIVE_LIMIT_USAGE_END
+
+15:46:41.1 (23656028)|CODE_UNIT_FINISHED|testTrigger on Account trigger event BeforeInsert
+15:46:41.1 (29098831)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+15:46:41.1 (29114290)|DUPLICATE_DETECTION_BEGIN
+15:46:41.1 (31419703)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm3C0000005H3g|DuplicateRuleName:Standard Account Duplicate Rule|DmlType:INSERT
+15:46:41.1 (114405641)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+15:46:41.1 (114430358)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+15:46:41.1 (114581383)|DUPLICATE_DETECTION_END
+15:46:41.1 (114590825)|CODE_UNIT_FINISHED|DuplicateDetector
+15:46:41.1 (159098321)|DML_END|[7]
+15:46:41.159 (159215708)|CUMULATIVE_LIMIT_USAGE
+15:46:41.159 (159215708)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+15:46:41.159 (159215708)|CUMULATIVE_LIMIT_USAGE_END
+
+15:46:41.1 (159259261)|CODE_UNIT_FINISHED|ApexRestTestClass.ApexRestTestClass
+15:46:41.1 (160281460)|EXECUTION_FINISHED
+15:46:41.235 (235774775)|USER_INFO|[EXTERNAL]|0053C000000qwI8|test-ljjlukbmiu2s@example.com|Eastern Standard Time|GMT-04:00
+15:46:41.235 (235801369)|EXECUTION_STARTED
+15:46:41.235 (235807281)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+15:46:41.235 (235822243)|DUPLICATE_DETECTION_BEGIN
+15:46:41.235 (235910667)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm3C0000005H3g|DuplicateRuleName:Standard Account Duplicate Rule|DmlType:INSERT
+15:46:41.235 (246722555)|DUPLICATE_DETECTION_END
+15:46:41.235 (246730655)|CODE_UNIT_FINISHED|DuplicateDetector
+15:46:41.235 (247648013)|EXECUTION_FINISHED

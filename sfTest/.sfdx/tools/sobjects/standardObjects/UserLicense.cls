@@ -13,6 +13,8 @@ global class UserLicense {
     global List<PermissionSet> License;
     global String LicenseDefinitionKey;
     global String MasterLabel;
+    global Integer MonthlyLoginsEntitlement;
+    global Integer MonthlyLoginsUsed;
     global String Name;
     global String Status;
     global Datetime SystemModstamp;

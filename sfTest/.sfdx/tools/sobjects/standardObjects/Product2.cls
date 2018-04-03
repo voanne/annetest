@@ -40,18 +40,25 @@ global class Product2 {
     global List<Note> Notes;
     global List<NoteAndAttachment> NotesAndAttachments;
     global List<OpenActivity> OpenActivities;
-    global List<FeedComment> Parent;
+    global List<FeedItem> Parent;
     global List<PricebookEntry> PricebookEntries;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
-    global List<OpportunityLineItem> Product2;
+    global List<OrderItem> Product2;
     global String ProductCode;
+    global List<ProductItem> ProductItems;
+    global List<ProductRequestLineItem> ProductRequestLineItems;
+    global List<ProductTransfer> ProductTransfers;
+    global List<ProductConsumed> ProductsConsumed;
+    global List<ProductRequired> ProductsRequired;
     global String QuantityUnitOfMeasure;
     global List<FlowRecordRelation> RelatedRecord;
     global List<OutgoingEmail> RelatedTo;
+    global List<ReturnOrderLineItem> ReturnOrderLineItems;
     global String StockKeepingUnit;
     global Datetime SystemModstamp;
     global List<Task> Tasks;
+    global List<WorkOrderLineItem> WorkOrderLineItems;
 
     global Product2 () 
     {

@@ -29,7 +29,7 @@ global class OpportunityFeed {
     global String LinkUrl;
     global Opportunity Parent;
     global Id ParentId;
-    global ContentVersion RelatedRecord;
+    global SObject RelatedRecord;
     global Id RelatedRecordId;
     global Datetime SystemModstamp;
     global String Title;

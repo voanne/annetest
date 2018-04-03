@@ -77,6 +77,7 @@ global class Order {
     global List<ProcessInstanceHistory> ProcessSteps;
     global List<FlowRecordRelation> RelatedRecord;
     global List<OutgoingEmail> RelatedTo;
+    global List<ReturnOrder> ReturnOrders;
     global List<OrderShare> Shares;
     global Contact ShipToContact;
     global Id ShipToContactId;
@@ -96,6 +97,7 @@ global class Order {
     global List<TopicAssignment> TopicAssignments;
     global Decimal TotalAmount;
     global String Type;
+    global List<WorkOrderLineItem> WorkOrderLineItems;
 
     global Order () 
     {

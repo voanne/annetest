@@ -67,7 +67,7 @@ global class Opportunity {
     global String OrderNumber__c;
     global User Owner;
     global Id OwnerId;
-    global List<FeedItem> Parent;
+    global List<FeedComment> Parent;
     global List<Partner> Partners;
     global Pricebook2 Pricebook2;
     global Id Pricebook2Id;
@@ -77,6 +77,7 @@ global class Opportunity {
     global List<CollaborationGroupRecord> RecordAssociatedGroups;
     global List<FlowRecordRelation> RelatedRecord;
     global List<OutgoingEmail> RelatedTo;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<OpportunityShare> Shares;
     global String StageName;
     global Datetime SystemModstamp;

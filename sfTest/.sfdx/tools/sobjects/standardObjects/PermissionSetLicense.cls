@@ -39,6 +39,7 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsBulkMacrosAllowed;
     global Boolean MaximumPermissionsCampaignInfluence2;
     global Boolean MaximumPermissionsCanApproveFeedPost;
+    global Boolean MaximumPermissionsCanEditDataPrepRecipe;
     global Boolean MaximumPermissionsCanInsertFeedSystemFields;
     global Boolean MaximumPermissionsCanUseNewDashboardBuilder;
     global Boolean MaximumPermissionsCanVerifyComment;
@@ -60,10 +61,10 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsCreateCustomizeFilters;
     global Boolean MaximumPermissionsCreateCustomizeReports;
     global Boolean MaximumPermissionsCreateDashboardFolders;
-    global Boolean MaximumPermissionsCreatePackaging;
     global Boolean MaximumPermissionsCreateReportFolders;
     global Boolean MaximumPermissionsCreateReportInLightning;
     global Boolean MaximumPermissionsCreateTopics;
+    global Boolean MaximumPermissionsCreateWorkBadgeDefinition;
     global Boolean MaximumPermissionsCreateWorkspaces;
     global Boolean MaximumPermissionsCustomMobileAppsAccess;
     global Boolean MaximumPermissionsCustomSidebarOnAllPages;
@@ -96,6 +97,10 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsEnableNotifications;
     global Boolean MaximumPermissionsExportReport;
     global Boolean MaximumPermissionsFeedPinning;
+    global Boolean MaximumPermissionsFieldServiceAccess;
+    global Boolean MaximumPermissionsFieldServiceDispatcher;
+    global Boolean MaximumPermissionsFieldServiceMobileApp;
+    global Boolean MaximumPermissionsFieldServiceScheduling;
     global Boolean MaximumPermissionsFlowUFLRequired;
     global Boolean MaximumPermissionsForceTwoFactor;
     global Boolean MaximumPermissionsGovernNetworks;
@@ -105,6 +110,12 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsImportCustomObjects;
     global Boolean MaximumPermissionsImportLeads;
     global Boolean MaximumPermissionsImportPersonal;
+    global Boolean MaximumPermissionsInsightsAppAdmin;
+    global Boolean MaximumPermissionsInsightsAppDashboardEditor;
+    global Boolean MaximumPermissionsInsightsAppEltEditor;
+    global Boolean MaximumPermissionsInsightsAppUploadUser;
+    global Boolean MaximumPermissionsInsightsAppUser;
+    global Boolean MaximumPermissionsInsightsCreateApplication;
     global Boolean MaximumPermissionsInstallPackaging;
     global Boolean MaximumPermissionsIotUser;
     global Boolean MaximumPermissionsLightningConsoleAllowedForUser;
@@ -152,6 +163,7 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsManageSolutions;
     global Boolean MaximumPermissionsManageSurveys;
     global Boolean MaximumPermissionsManageSynonyms;
+    global Boolean MaximumPermissionsManageTemplatedApp;
     global Boolean MaximumPermissionsManageTwoFactor;
     global Boolean MaximumPermissionsManageUnlistedGroups;
     global Boolean MaximumPermissionsManageUsers;
@@ -162,10 +174,10 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsModifyAllData;
     global Boolean MaximumPermissionsModifySecureAgents;
     global Boolean MaximumPermissionsNewReportBuilder;
+    global Boolean MaximumPermissionsOptOutGeoLocationTracking;
     global Boolean MaximumPermissionsPackaging2;
     global Boolean MaximumPermissionsPasswordNeverExpires;
     global Boolean MaximumPermissionsPreventClassicExperience;
-    global Boolean MaximumPermissionsPublishPackaging;
     global Boolean MaximumPermissionsRemoveDirectMessageMembers;
     global Boolean MaximumPermissionsResetPasswords;
     global Boolean MaximumPermissionsRunFlow;
@@ -174,6 +186,7 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsScheduleReports;
     global Boolean MaximumPermissionsSelectFilesFromSalesforce;
     global Boolean MaximumPermissionsSendAnnouncementEmails;
+    global Boolean MaximumPermissionsSendExternalEmailAvailable;
     global Boolean MaximumPermissionsSendSitRequests;
     global Boolean MaximumPermissionsShareInternalArticles;
     global Boolean MaximumPermissionsShowCompanyNameAsUserBadge;
@@ -188,6 +201,7 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsTransferAnyLead;
     global Boolean MaximumPermissionsTwoFactorApi;
     global Boolean MaximumPermissionsUseTeamReassignWizards;
+    global Boolean MaximumPermissionsUseTemplatedApp;
     global Boolean MaximumPermissionsUseWebLink;
     global Boolean MaximumPermissionsViewAllActivities;
     global Boolean MaximumPermissionsViewAllData;
@@ -200,10 +214,12 @@ global class PermissionSetLicense {
     global Boolean MaximumPermissionsViewHealthCheck;
     global Boolean MaximumPermissionsViewHelpLink;
     global Boolean MaximumPermissionsViewMyTeamsDashboards;
+    global Boolean MaximumPermissionsViewOnlyEmbeddedAppUser;
     global Boolean MaximumPermissionsViewPublicDashboards;
     global Boolean MaximumPermissionsViewPublicReports;
     global Boolean MaximumPermissionsViewRoles;
     global Boolean MaximumPermissionsViewSetup;
+    global Boolean MaximumPermissionsWaveTabularDownload;
     global Boolean MaximumPermissionsWorkCalibrationUser;
     global Boolean MaximumPermissionsWorkDotComUserPerm;
     global List<PermissionSetLicenseAssign> PermissionSetLicenseAssignments;

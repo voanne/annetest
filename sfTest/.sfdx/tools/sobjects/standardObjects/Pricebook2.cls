@@ -29,6 +29,7 @@ global class Pricebook2 {
     global List<PricebookEntry> PricebookEntries;
     global List<FlowRecordRelation> RelatedRecord;
     global Datetime SystemModstamp;
+    global List<WorkOrder> WorkOrders;
 
     global Pricebook2 () 
     {

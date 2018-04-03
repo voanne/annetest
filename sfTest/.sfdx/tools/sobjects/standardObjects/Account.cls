@@ -18,6 +18,7 @@ global class Account {
     global List<ActivityHistory> ActivityHistories;
     global Decimal AnnualRevenue;
     global List<Asset> Assets;
+    global List<AssociatedLocation> AssociatedLocations;
     global List<AttachedContentDocument> AttachedContentDocuments;
     global List<Attachment> Attachments;
     global Address BillingAddress;
@@ -64,6 +65,7 @@ global class Account {
     global Datetime LastModifiedDate;
     global Datetime LastReferencedDate;
     global Datetime LastViewedDate;
+    global List<MaintenancePlan> MaintenancePlans;
     global Account MasterRecord;
     global Id MasterRecordId;
     global String NaicsCode;
@@ -74,13 +76,15 @@ global class Account {
     global Integer NumberOfEmployees;
     global Double NumberofLocations__c;
     global List<OpenActivity> OpenActivities;
+    global OperatingHours OperatingHours;
+    global Id OperatingHoursId;
     global List<Opportunity> Opportunities;
     global List<OpportunityPartner> OpportunityPartnersTo;
     global List<Order> Orders;
     global User Owner;
     global Id OwnerId;
     global String Ownership;
-    global List<FeedItem> Parent;
+    global List<FeedComment> Parent;
     global Id ParentId;
     global List<Partner> PartnersFrom;
     global List<Partner> PartnersTo;
@@ -89,14 +93,19 @@ global class Account {
     global List<UserRole> PortalAccount;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
+    global List<ProductRequestLineItem> ProductRequestLineItems;
+    global List<ProductRequest> ProductRequests;
     global List<Asset> ProvidedAssets;
     global String Rating;
     global List<CollaborationGroupRecord> RecordAssociatedGroups;
     global List<ContentDistribution> RelatedRecord;
     global List<OutgoingEmail> RelatedTo;
+    global List<ResourcePreference> ResourcePreferences;
+    global List<ReturnOrder> ReturnOrders;
     global Date SLAExpirationDate__c;
     global String SLASerialNumber__c;
     global String SLA__c;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<Asset> ServicedAssets;
     global List<AccountShare> Shares;
     global Address ShippingAddress;
@@ -119,6 +128,7 @@ global class Account {
     global String Type;
     global String UpsellOpportunity__c;
     global String Website;
+    global List<WorkOrder> WorkOrders;
     global String YearStarted;
 
     global Account () 
